@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.table th:not([align]) {
+  text-align: right;
+  direction: rtl;
+}
+.columns {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -0.75rem;
+  float: right;
+  direction: rtl;
+}
+.button.is-small:not(.is-rounded) {
+  border-radius: 2px;
+  margin-left: 5px;
+}
