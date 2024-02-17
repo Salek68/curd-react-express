@@ -1,9 +1,9 @@
 
-import { Base64 } from "js-base64";
+
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Cookies from 'js-cookie';
+
 const Menutop = () => {
     const [ menu , setmenu] = useState([]);
     const [ menua , setmenua] = useState([]);
@@ -13,22 +13,7 @@ const Menutop = () => {
 menuf();
 menuasli();
    },[])
-   const loginoront = async(req,res)=>{
-    const data = {username: "DWD",pass:"12gsdvs345"}
-    var temp = Base64.encode(data);
-var t = Base64.decode(temp);
-    alert(temp);
-    alert(t);
-     if(Cookies.get('rejacwt')) {
-      console.log(Cookies.get('rejacwt'))
-     }
-      else{
-        Cookies.set('rejacwt', 'vcashvahsdcbhasb', { expires: 7 });
-        console.log(Cookies.get('rejacwt'))
-      }
-   
 
-                }
     const menuf = async()=>{
         await axios.get("http://localhost:5000/topmenu")
         .then(res => {
@@ -62,7 +47,7 @@ var t = Base64.decode(temp);
  
                 <div className='divtleft'>
       
-           <button className="button h5" onClick={loginoront}>ورود / عضویت</button>    </div>
+           <button className="button h5" >ورود / عضویت</button>    </div>
         <div className='divtmain'>
           <img className="rounded" src={require('./image/Name.com_logo.svg.png')} width={300} height={50}></img>
         </div>

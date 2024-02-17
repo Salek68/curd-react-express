@@ -71,7 +71,7 @@ const ChatBot = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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', // جایگزین کلید API واقعی خود کنید
+            'Authorization': 'Bearer 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', // جایگزین کلید API واقعی خود کنید
           },
         }
       );
