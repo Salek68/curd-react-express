@@ -1,0 +1,20 @@
+.user{
+    background: rgb(232, 116, 183);
+    color: white;
+    border-radius: 5px;
+    direction: rtl;
+    height: auto;
+    font-size: 20px;
+}
+.bot{
+    background: rgb(0, 185, 236);
+    color: white;
+    border-radius: 5px;
+    direction: rtl;
+    height: auto;
+    font-size: 20px;
+}
+.ub{
+    color: red;
+    font-size: 25px;
+}

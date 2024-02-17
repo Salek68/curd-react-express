@@ -26,3 +26,141 @@ code {
   border-radius: 2px;
   margin-left: 5px;
 }
+.card{
+  width: 500px;
+  direction: rtl;
+  text-align: center;
+  margin-right:10px ;
+}
+.container1{
+  display: inline-block;
+  margin-top: 10px;
+ 
+}
+.linka{
+  list-style: none;
+  text-decoration: none;
+}
+.divmahsol{
+    display: flex;
+    margin-left: 38px;
+
+}
+.hiden{
+  display: none;
+}
+.divtop{
+width: 100%;
+height: 5px;
+background: red;
+}
+.divtright{
+  float: right;
+  direction: rtl;
+ 
+  margin-top: 10px;
+  font-weight: bold;
+  width: 30%;
+}
+.divtright > span{
+  margin-right: 8px;
+}
+.divtright > span > img{
+  margin-right: 8px;
+}
+.divtmain{
+width: 40%;
+margin-top: 10px;
+}
+.divtoper{
+  width: 100%;
+   display: flex;
+
+}
+.divtleft{
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+}
+.divtleft >button{
+  margin-left: 10px;
+  height: 50px;
+}
+.divtmain > img{
+  margin-left: 170px;
+}
+.ta{
+  background: red;
+  border-radius: 100%;
+}
+.bac{
+  background: rgb(71, 174, 71);
+}
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+
+.navbar-nav>li>a{
+
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right:20px;
+  color: #fff;
+}
+
+
+.navbar-toggler {
+    padding: .20rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+
+    }
+
+    .nav-link{
+
+      color: #fff !important;
+    }
+
+
+.wrapper{
+      width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #000;
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+    transition: 1s all;
+}
+
+.navbar-brand{
+
+  color:#fff;
+  font-family: 'Allerta Stencil', sans-serif;
+  margin-bottom: 4px;
+  font-size: 27px;
+}
+
+.navbar-red:hover .wrapper{
+
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+
+}
+
+.navbar-brand:hover{
+
+  color:#fff;
+  
+}
+
+.navbar-red{
+
+  background-color: red;
+  color: #fff;
+
+}
+
+.all-show{
+
+  z-index: 10;
+}

@@ -10,7 +10,7 @@ const Adduser = () => {
     const saveuser = async(e)=>{
    e.preventDefault();
    try{
- const res =await axios.post("http://localhost:5000/users",{name,email,gender})
+ const res = await axios.post("http://localhost:5000/users",{name,email,gender})
     navegate("/");
    }catch(er){
     console.log(er)
