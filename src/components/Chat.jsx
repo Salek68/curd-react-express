@@ -71,7 +71,7 @@ const ChatBot = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': '', // جایگزین کلید API واقعی خود کنید
+            'Authorization': 'uyuyyu', // جایگزین کلید API واقعی خود کنید
           },
         }
       );
