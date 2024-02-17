@@ -50,7 +50,7 @@ const SendButton = styled.button`
 `;
 
 const MessageHistory = styled.div`
-  max-height: 200px;
+  max-height: 600px;
   overflow-y: auto;
   padding: 10px;
 `;
@@ -71,7 +71,7 @@ const ChatBot = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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', // جایگزین کلید API واقعی خود کنید
+            'Authorization': '', // جایگزین کلید API واقعی خود کنید
           },
         }
       );
